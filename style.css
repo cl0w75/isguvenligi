@@ -5,14 +5,14 @@
 }
 
 .isguvenligi {
-    margin: 20px auto;         /* Ortalamak için auto */
-    padding: 30px;             /* İç boşluğu artırdım */
+    margin: 20px auto;         
+    padding: 30px;             
     border: 2px solid #000;
     border-radius: 10px;
     background-color: white;
-    width: 70%;                /* Daha ince yapmak için %70 verdim */
-    min-height: 80vh;          /* Uzun dikdörtgen için yüksekliği artırdım */
-    box-sizing: border-box;    /* Padding’i hesaba kat */
+    width: 70%;               
+    min-height: 80vh;        
+    box-sizing: border-box;    
 }
 
 
@@ -53,7 +53,7 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 6px;
-    float: right;
+
 }
 
 
@@ -97,3 +97,24 @@ button {
 }
 
 
+video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.isguvenligi h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+.bb {
+    border-radius: 50px;
+    border: 2px solid #382f2f;
+}
